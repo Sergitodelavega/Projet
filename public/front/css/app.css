@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900";
+@import url(./variables.css);
+
+#body{
+    background-color: #F7F8F8;
+    font-family: "Montserrat", sans-serif;
+}
+#header{
+    background: var(--bg-primary-blue);
+    transition: all 0.5s;
+    z-index: 99;
+    height: 70px;
+    top: 60px;
+}
+
+#header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#header .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li .color {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s;
+}
+ul li .color:hover{
+    color: #f0a945;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--bg-primary-blue);
+    height: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+}
